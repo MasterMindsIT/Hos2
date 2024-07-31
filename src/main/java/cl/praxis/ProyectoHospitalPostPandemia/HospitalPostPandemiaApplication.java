@@ -6,13 +6,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProyectoHospitalPostPandemiaApplication {
+public class HospitalPostPandemiaApplication {
 
-	private static final Logger logger = LoggerFactory.getLogger(ProyectoHospitalPostPandemiaApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProyectoHospitalPostPandemiaApplication.class, args);
-		logger.info("Iniciando sistema del Hospital");
+		SpringApplication.run(HospitalPostPandemiaApplication.class, args);
 	}
 
 }
