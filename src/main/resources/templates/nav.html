@@ -1,0 +1,21 @@
+<div th:fragment="nav" ></div>
+<div class="barra container-fluid bg-dark d-flex sticky-top justify-content-center">
+    <nav class="bg-dark navbar navbar-expand-lg navbar-dark container sticky-top">
+        <div class="container-fluid">
+            <h1 class="lobster-regular text-white">Hell's Pass Hospital  </h1>
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end"
+                 id="navbarNavAltMarkup">
+                <div class="navbar-nav roboto-regular">
+                    <a class="nav-link active" aria-current="page" th:href="@{/}">Inicio</a>
+                    <a class="nav-link" th:href="@{/patients}">Lista de pacientes</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
